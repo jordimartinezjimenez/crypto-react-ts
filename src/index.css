@@ -91,3 +91,7 @@ body {
 .form [type="submit"]:hover {
     background-color: #7f81d6;
 }
+
+.error {
+    color: #F43F5E;
+}
