@@ -86,12 +86,47 @@ body {
     -moz-transition: background-color 300ms ease;
     -ms-transition: background-color 300ms ease;
     -o-transition: background-color 300ms ease;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 
 .form [type="submit"]:hover {
     background-color: #7f81d6;
 }
 
+
 .error {
     color: #F43F5E;
+}
+
+/* .result-wrapper {
+    margin-top: 5rem;
+} */
+
+.result-wrapper h2 {
+    text-align: center;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+.result img {
+    width: 100%;
+}
+
+.result p {
+    margin: 0 0 1rem;
+    font-size: 1.6rem;
+}
+
+.result span {
+    font-weight: 700;
+    display: block;
 }
